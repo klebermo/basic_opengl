@@ -1,4 +1,4 @@
-package com.example.android.opengl;
+package org.hello;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
@@ -57,7 +57,6 @@ public class Triangle {
         GLES20.glAttachShader(mProgram, vertexShader);   // add the vertex shader to program
         GLES20.glAttachShader(mProgram, fragmentShader); // add the fragment shader to program
         GLES20.glLinkProgram(mProgram);                  // create OpenGL program executables
-
     }
 
     public void draw(float[] mvpMatrix) {

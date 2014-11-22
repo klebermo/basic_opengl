@@ -1,4 +1,4 @@
-package com.example.android.opengl;
+package org.hello;
 
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
